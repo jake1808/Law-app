@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { MegaMenu } from '../molecules/MegaMenu'
+import { BusinessLink } from '../molecules/NavBar/Links/BusinessLink'
 
 export const NavBar = () => {
     return (
@@ -9,7 +9,7 @@ export const NavBar = () => {
                 <Link href="/" className='text-white px-8'>
                     Law App
                 </Link>
-                <MegaMenu/>
+                <BusinessLink/>
             </div>
         </div>
     )
