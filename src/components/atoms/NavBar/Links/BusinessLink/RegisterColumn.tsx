@@ -37,7 +37,7 @@ export const RegisterColumn = () => {
         </Link>
     </ul>
     <ul>
-        <Link href="#" className='block p-3 text-gray-300 hover:text-white font-bold text-xl btn-ghost'>
+        <Link href="#" className='block p-3 text-gray-300 hover:text-white font-bold text-xl btn btn-outline btn-accent'>
             Help me decide &#8594;
         </Link>
     </ul>

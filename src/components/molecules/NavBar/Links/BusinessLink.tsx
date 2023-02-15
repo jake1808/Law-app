@@ -1,6 +1,7 @@
 import React from 'react'
-import { RegisterColumn } from '@/components/atoms/BusinessLink/RegisterColumn'
-import { RunYourBusinessColumn } from '@/components/atoms/BusinessLink/RunYourBusinessColumn';
+import { RegisterColumn } from '@/components/atoms/NavBar/Links/BusinessLink/RegisterColumn'
+import { RunYourBusinessColumn } from '@/components/atoms/NavBar/Links/BusinessLink/RunYourBusinessColumn';
+import { ProtectYourBrandColumn } from '@/components/atoms/NavBar/Links/BusinessLink/ProtectYourBrandColumn';
 
 
 export const BusinessLink = () => {
@@ -12,11 +13,13 @@ export const BusinessLink = () => {
                 <div className='container mx-auto w-full flex flex-wrap justify-between mx-2'>
                     <RegisterColumn />
                     <RunYourBusinessColumn />
+                    <ProtectYourBrandColumn />
                 </div>
             </div>
 
         </ul>
     );
 }
+
 
 
