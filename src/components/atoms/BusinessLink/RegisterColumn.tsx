@@ -32,7 +32,7 @@ export const RegisterColumn = () => {
     </ul>
     <hr className='solid  w-[20%]' />
     <ul>
-        <Link href="#" className='block p-3 text-gray-300 hover:text-white font-bold text-xl'>
+        <Link href="#" className='underline block p-3 text-gray-300 hover:text-white font-bold text-xl'>
             View all
         </Link>
     </ul>
