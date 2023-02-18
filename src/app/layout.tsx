@@ -1,4 +1,4 @@
-import { NavBar } from '@/components/organisms/NavBar'
+import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import './globals.css'
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
       <head />
 
       <body>
-        <NavBar/>
+        <NavBarOrganism />
         {children}
       </body>
     </html>
