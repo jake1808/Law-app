@@ -1,4 +1,5 @@
 import { NavLink } from '@/components/atoms/NavBar/Links/NavLink'
+import { DropdownMenu } from '@/components/molecules/NavBar/DropdownMenu'
 import { SearchMolecule } from '@/components/molecules/NavBar/SearchMolecule'
 import { SignInMolecule } from '@/components/molecules/NavBar/SignInMolecule'
 import Link from 'next/link'
@@ -21,6 +22,7 @@ export const NavBarOrganism = () => {
             <div className='navbar-end'>
                 <SearchMolecule />
                 <SignInMolecule />
+                <DropdownMenu />
             </div>
         </div>
     )
