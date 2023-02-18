@@ -1,5 +1,7 @@
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
+import Script from 'next/script'
 import './globals.css'
+
 
 export default function RootLayout({
   children,
@@ -18,6 +20,7 @@ export default function RootLayout({
         <NavBarOrganism />
         {children}
       </body>
+      <Script src='../lib/OpenSearchField.ts' />
     </html>
   )
 }

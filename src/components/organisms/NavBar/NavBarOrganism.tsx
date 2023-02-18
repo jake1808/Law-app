@@ -7,7 +7,7 @@ import { PersonalMenuMolecule } from '../../molecules/NavBar/Menus/PersonalMenu'
 
 export const NavBarOrganism = () => {
     return (
-        <div className='navbar bg-primary'>
+        <div className='navbar bg-primary absolute'>
             <div className='navbar-center'>
                 <Link href="/" className='text-white px-8'>
                     Law App
