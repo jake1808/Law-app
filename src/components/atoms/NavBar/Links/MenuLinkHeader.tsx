@@ -8,7 +8,7 @@ interface Props{
 export const MenuLinkHeader = (props:Props) => {
     return (
         <Link href="#">
-            <h3 className='font-bold text-xl text-white text-bold mb-2'>
+            <h3 className='font-bold text-xl text-white font-bold mb-2'>
                 {props.text}
             </h3>
         </Link>
