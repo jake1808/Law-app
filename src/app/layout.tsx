@@ -1,5 +1,7 @@
+import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
-import Script from 'next/script'
+import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
+
 import './globals.css'
 
 
@@ -19,8 +21,10 @@ export default function RootLayout({
       <body>
         <NavBarOrganism />
         {children}
+        <FooterOrganism />
+        <DisclaimerOrganism />
       </body>
-      <Script src='../lib/OpenSearchField.ts' />
+    
     </html>
   )
 }

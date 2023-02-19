@@ -4,9 +4,12 @@
 
 /* Mega Menu Styles */
 
+:root{
+    --displayValue: none;
+}
 
 .mega-menu {
-    display: none;
+    display: var(--displayValue);
     left: 0;
     position: absolute;
     text-align: left;
