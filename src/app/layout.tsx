@@ -1,8 +1,10 @@
+
 import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
 
 import './globals.css'
+import { PhoneModelMolecule } from '@/components/molecules/PhoneModel/PhoneModelMolecule'
 
 
 export default function RootLayout({
@@ -24,7 +26,8 @@ export default function RootLayout({
         <FooterOrganism />
         <DisclaimerOrganism />
       </body>
-    
+      <PhoneModelMolecule/>
+     
     </html>
   )
 }

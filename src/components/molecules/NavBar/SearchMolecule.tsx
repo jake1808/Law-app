@@ -10,7 +10,7 @@ export const SearchMolecule = () => {
 
 
     return (
-        <div className='flex'>
+        <div className='hidden sm:flex '>
             <SearchButton />
             <SearchField />
         </div>

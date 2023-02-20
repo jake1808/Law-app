@@ -5,10 +5,10 @@ import React from 'react'
 
 export const HeroMolecule = () => {
     return (
-        <div className='hero min-h-screen bg-neutral'>
-            <div className='hero-content flex-col lg:flex-row-reverse'>
+        <div className='hero min-h-screen bg-neutral '>
+            <div className='hero-content flex-col-reverse lg:flex-row-reverse'>
                 <img
-                    className='max-w-sm rounded-lg shadow-2xl'
+                    className='max-w-sm rounded-lg shadow-2xl '
                     src='https://images.unsplash.com/photo-1582896911227-c966f6e7fb93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80'
                     alt='person'
                 />

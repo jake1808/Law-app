@@ -8,6 +8,10 @@
     --displayValue: none;
 }
 
+main, html, body{
+    overflow-x: hidden;
+}
+
 .mega-menu {
     display: var(--displayValue);
     left: 0;
