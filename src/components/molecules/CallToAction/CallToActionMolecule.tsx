@@ -11,7 +11,7 @@ export const CallToActionMolecule = () => {
         </div>
       </div>
       <div className='container  flex flex-col items-center gap-x-4 text-white'>
-        <Link href='/' className='btn btn-outline btn-accent font-bold mr-4 mb-10'>
+        <Link href='/' className='btn btn-outline btn-accent font-bold mb-10 w-[80%]'>
           Get legal help
         </Link>
         <div className='flex overflow-x-visible container w-full justify-center'>

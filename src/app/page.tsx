@@ -4,6 +4,7 @@ import styles from './page.module.css'
 import { HeroMolecule } from '@/components/molecules/Hero/HeroMolecule'
 import { CallToActionMolecule } from '@/components/molecules/CallToAction/CallToActionMolecule'
 import { ImageLockUp } from '@/components/molecules/ImageLockUp/ImageLockUp'
+import { StatsMolecule } from '@/components/molecules/StatsSection/StatsMolecule'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function Home() {
           <p>No hourly charges. No surprises. Really.</p>
         </>
       </ImageLockUp>
+      <StatsMolecule/>
     </main>
   )
 }
