@@ -4,14 +4,15 @@ import styles from './page.module.css'
 import { HeroMolecule } from '@/components/molecules/Hero/HeroMolecule'
 import { CallToActionMolecule } from '@/components/molecules/CallToAction/CallToActionMolecule'
 import { ImageLockUp } from '@/components/molecules/ImageLockUp/ImageLockUp'
-import { StatsMolecule } from '@/components/molecules/StatsSection/StatsMolecule'
+import { StatsMolecule } from '@/components/organisms/StatsSection/StatsMolecule'
+import { LegalSection as LegalSection } from '@/components/organisms/Legal/LegalSection'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <HeroMolecule/>
+      <HeroMolecule />
       <CallToActionMolecule />
       <ImageLockUp image={{
         src: 'https://source.unsplash.com/random/?city,night',
@@ -27,7 +28,8 @@ export default function Home() {
           <p>No hourly charges. No surprises. Really.</p>
         </>
       </ImageLockUp>
-      <StatsMolecule/>
+      <StatsMolecule />
+      <LegalSection />
     </main>
   )
 }
