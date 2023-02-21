@@ -6,7 +6,6 @@ import React from 'react'
 export const PhoneModelMolecule = () => {
     return (
         <div>
-
             <input type="checkbox" id="phone-modal" className="modal-toggle" />
             <label htmlFor="phone-modal" className="modal modal-bottom cursor-pointer">
                 <label className="modal-box relative" htmlFor="phone-modal">

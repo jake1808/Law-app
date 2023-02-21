@@ -1,4 +1,4 @@
-
+'use client'
 import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
