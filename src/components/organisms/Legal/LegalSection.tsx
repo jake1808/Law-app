@@ -10,6 +10,9 @@ export const LegalSection = () => {
       <ForYourBusiness />
       <ForYouAndYourFamily />
       <ForYourIntellectualProperty />
+      <div className="container ">
+        <h3 className='font-bold text-2xl mb-4'>Meet our customers</h3>
+      </div>
     </div>
   )
 }

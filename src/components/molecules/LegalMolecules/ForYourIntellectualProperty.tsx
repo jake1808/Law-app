@@ -21,7 +21,7 @@ export const ForYourIntellectualProperty = () => {
                 <h3 className='font-bold text-2xl mb-4'>For your intellectual property</h3>
                 <p className='font-semibold text-lg'>Need to trademark your logo&#44; copyright a creative work&#44; or patent an invention? Protect yourself against copycats.</p>
             </div>
-            <div className="container">
+            <div className="container mb-12">
                 <Link href='#' className='btn btn-accent btn-wide mb-4'>View all options</Link>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="col-span-2">
