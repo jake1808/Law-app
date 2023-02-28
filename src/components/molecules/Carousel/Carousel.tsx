@@ -22,7 +22,12 @@ export const Carousel = () => {
                 />
             </div>
             <div id='item3' className="carousel-item w-full">
-                Item3
+            <CarouselCard 
+                image={{src:"https://source.unsplash.com/random/?woman", alt:'ooouuu'}}
+                cardTitle='Nell C.'
+                cardDescription='&#34;I needed to update my will. I&apos;d heard of LawApp. And when I had to update some documents&#44; I looked online at some other companies&#44; but felt comfortable using LawApp. The website was very helpful. And having access to a lawyer to make sure that everything was correct made it really doable&#34;'
+                cardAuthor='Nell C.&#44; last will customer'
+                />
             </div>
 
         </div>

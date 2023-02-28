@@ -20,16 +20,17 @@ export const CarouselCard = ({ image, cardTitle, cardDescription, cardAuthor }: 
                     alt={image.alt}
                     height={330}
                     width={330}
+                    style={{ width: 'auto', height: 'auto' }}
                 />
             </figure>
-            <div className="card-body ">
-                <h4 className="card-title font-bold text-2xl px-4">
+            <div className="card-body text-left px-4">
+                <h4 className="card-title font-bold text-2xl ">
                     {cardTitle}
                 </h4>
-                <p className='font-semibold text-xl mb-6'>
+                <p className='font-thin text-lg mb-6'>
                     {cardDescription}
                 </p>
-                <p className='font-semibold text-xl mb-6'>
+                <p className='font-thin text-lg mb-6'>
                     {cardAuthor}
                 </p>
             </div>
