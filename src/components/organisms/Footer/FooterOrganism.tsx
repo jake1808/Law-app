@@ -68,14 +68,16 @@ const FooterOrganism = () => {
             </ul>
           </div>
         </div>
-        <h2 className='text-xl font-bold'>Law App</h2>
+        <div className="container flex flex-col justify-center items-center text-center">
+          <h2 className='text-xl font-bold mb-6'>Law App</h2>
           <div className="flex">
-            <a className="btn btn-sm btn-ghost" href='#'><SlSocialFacebook /></a>
-            <a className="btn btn-sm btn-ghost" href='#'><SlSocialInstagram /></a>
-            <a className="btn btn-sm btn-ghost" href='#'><SlSocialLinkedin /></a>
-            <a className="btn btn-sm btn-ghost" href='#'><SlSocialTwitter /></a>
-            <a className="btn btn-sm btn-ghost" href='#'><SiWhatsapp /></a>
+            <a className="btn btn-sm btn-ghost" href='#'><SlSocialFacebook size={30}/></a>
+            <a className="btn btn-sm btn-ghost" href='#'><SlSocialInstagram size={30}/></a>
+            <a className="btn btn-sm btn-ghost" href='#'><SlSocialLinkedin size={30}/></a>
+            <a className="btn btn-sm btn-ghost" href='#'><SlSocialTwitter size={30}/></a>
+            <a className="btn btn-sm btn-ghost" href='#'><SiWhatsapp size={30}/></a>
           </div>
+        </div>
       </div>
       <div className='footer mb-6 p-10 hidden'>
         <ul>
@@ -110,9 +112,9 @@ const FooterOrganism = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='p-10'>
         <p className='text-sm mb-3'>&#169; LawApp.com, Inc. All rights reserved.</p>
-        <p className='text-sm' >LawApp provides access to independent attorneys and self-service tools. We are not a law firm and do not provide legal advice. Use of our products and services are governed by our <a className="link" href="#">Terms of Use</a> and <a className="link" href="#">Privacy Policy</a>.</p>
+        <p className='text-sm mb-6' >LawApp provides access to independent attorneys and self-service tools. We are not a law firm and do not provide legal advice. Use of our products and services are governed by our <a className="link" href="#">Terms of Use</a> and <a className="link" href="#">Privacy Policy</a>.</p>
       </div>
     </footer>
 
