@@ -7,7 +7,7 @@ import { Carousel } from '@/components/molecules/Carousel/Carousel'
 
 export const LegalSection = () => {
   return (
-    <div className='flex flex-col w-full p-10 justify-center content-center mb-20'>
+    <div className='flex flex-col w-full p-10 justify-center content-center mb-14'>
       <ForYourBusiness />
       <ForYouAndYourFamily />
       <ForYourIntellectualProperty />

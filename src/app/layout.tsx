@@ -22,8 +22,8 @@ export default function RootLayout({
       <body>
         <NavBarOrganism />
         {children}
-        <FooterOrganism />
         <DisclaimerOrganism />
+        <FooterOrganism />
         <PhoneModelMolecule/>
       </body>
      
