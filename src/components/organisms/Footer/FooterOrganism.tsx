@@ -15,7 +15,7 @@ const FooterOrganism = () => {
         </a>
       </div>
       <div className='flex flex-col items-center mb-8 p-10 mt-8'>
-        <h1 className='text-center text-xl font-bold'>Get helpful tips and info from our newsletter!</h1>
+        <h1 className='text-center text-xl font-bold p-12'>Get helpful tips and info from our newsletter!</h1>
         <NewsLetterMolecule />
       </div>
       <div className='footer mb-6 p-10'>
