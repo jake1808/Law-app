@@ -1,4 +1,3 @@
-'use client'
 import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
@@ -25,8 +24,9 @@ export default function RootLayout({
         {children}
         <FooterOrganism />
         <DisclaimerOrganism />
+        <PhoneModelMolecule/>
       </body>
-      <PhoneModelMolecule/>
+     
      
     </html>
   )

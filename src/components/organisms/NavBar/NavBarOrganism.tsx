@@ -1,10 +1,11 @@
+'use client'
 import { NavLink } from '@/components/atoms/NavBar/Links/NavLink'
 import { PhoneButton } from '@/components/atoms/NavBar/PhoneModel/PhoneButton'
 import { DropdownMenu } from '@/components/molecules/NavBar/DropdownMenu'
 import { SearchMolecule } from '@/components/molecules/NavBar/SearchMolecule'
 import { SignInMolecule } from '@/components/molecules/NavBar/SignInMolecule'
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+
 import { BusinessMenuMolecule } from '../../molecules/NavBar/Menus/BusinessMenuMolecule'
 import { PersonalMenuMolecule } from '../../molecules/NavBar/Menus/PersonalMenu'
 
