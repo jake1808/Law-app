@@ -1,11 +1,11 @@
 
-import { MenuButton } from '@/components/atoms/NavBar/DropdownMenu/MenuButton'
+import { MenuButton } from '@/components/molecules/NavBar/DropdownMenu/MenuButton'
 
 import { MenuLink } from '@/components/atoms/NavBar/Links/MenuLink'
 import { MenuLinkHeader } from '@/components/atoms/NavBar/Links/MenuLinkHeader'
 import { BiSearchAlt2 } from 'react-icons/bi'
 import React from 'react'
-import { BusinessSubMenu  } from '@/components/atoms/NavBar/DropdownMenu/BusinessSubMenu'
+import { BusinessSubMenu } from '@/components/molecules/NavBar/DropdownMenu/BusinessSubMenu'
 
 
 
@@ -24,9 +24,9 @@ export const DropdownMenu = () => {
                             </form>
                         </li>
                         <li>
-                            <BusinessSubMenu/>
+                            <BusinessSubMenu />
                         </li>
-                        
+
                         <MenuLink text='Contact us' />
                         <MenuLink text='FAQs' />
                         <MenuLink text='Check my order status' />
