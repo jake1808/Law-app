@@ -5,7 +5,7 @@ import { MenuLink } from '@/components/atoms/NavBar/Links/MenuLink'
 import { MenuLinkHeader } from '@/components/atoms/NavBar/Links/MenuLinkHeader'
 import { BiSearchAlt2 } from 'react-icons/bi'
 import React from 'react'
-import { BusinessSubMenu } from '@/components/molecules/NavBar/DropdownMenu/BusinessSubMenu'
+import { BusinessSubMenu } from '@/components/molecules/NavBar/DropdownMenu/submenu/BusinessSubMenu'
 
 
 

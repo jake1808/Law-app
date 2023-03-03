@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { HelpButtonLink } from '../../../atoms/NavBar/Links/HelpButtonLink'
+import { HelpButtonLink } from '../../../../atoms/NavBar/Links/HelpButtonLink'
 import { RxCaretRight } from 'react-icons/rx'
 export const BusinessSubMenu = () => {
     return (
@@ -27,8 +27,8 @@ export const BusinessSubMenu = () => {
                                     <li className='mb-6 pl-4'><Link href=''>Sole proprietorship</Link></li>
                                     <hr className='w-[20%] mb-6 ml-4' />
                                     <li><Link href='' className='font-bold underline pl-4 mb-6'>View all</Link></li>
-                                    <li><HelpButtonLink /></li>
-                                    <hr className=' mt-8' />
+                                    <HelpButtonLink />
+                                    <li><hr className=' mt-8' /></li>
                                 </ul>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ export const BusinessSubMenu = () => {
                                     <li className='mb-6 pl-4'><Link href=''>Copyright</Link></li>
                                     <hr className='w-[20%] mb-6 ml-4' />
                                     <li><Link href='' className='font-bold underline pl-4 mb-6'>View all</Link></li>
-                                    <li><HelpButtonLink /></li>
+                                    <HelpButtonLink />
                                     <hr className=' mt-8' />
                                 </ul>
                             </div>
@@ -79,6 +79,7 @@ export const BusinessSubMenu = () => {
                     <li>
                         <Link href='' className='text-lg font-semibold flex underline mt-6'>See all business services <RxCaretRight color='white' size={30} className='' /></Link>
                     </li>
+
                     <hr className=' mt-8' />
                 </ul>
             </div>
