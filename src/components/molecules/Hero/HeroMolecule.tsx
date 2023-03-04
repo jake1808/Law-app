@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { LinkBtn } from '@/components/atoms/NavBar/Hero/Linkbtn/LinkBtn'
-import Link from 'next/link'
+
 import React from 'react'
 
 export const HeroMolecule = () => {

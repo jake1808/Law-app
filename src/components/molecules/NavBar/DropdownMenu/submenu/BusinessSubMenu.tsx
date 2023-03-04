@@ -7,7 +7,9 @@ export const BusinessSubMenu = () => {
         <div className="collapse collapse-plus  w-full">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
+                <Link href=''>
                 Business
+                </Link>
             </div>
             <div className="collapse-content ">
                 <ul>
@@ -15,7 +17,9 @@ export const BusinessSubMenu = () => {
                         <div className="collapse  w-full">
                             <input type="checkbox" />
                             <div className="collapse-title text-xl font-medium ">
+                                <Link href=''>
                                 Register your business
+                                </Link>
                             </div>
                             <div className="collapse-content">
                                 <ul className=''>
@@ -23,7 +27,6 @@ export const BusinessSubMenu = () => {
                                     <li className='mb-6 pl-4'><Link href=''>Corporation (C corp, S corp)</Link></li>
                                     <li className='mb-6 pl-4'><Link href=''>Doing business as (DBA)</Link></li>
                                     <li className='mb-6 pl-4'><Link href=''>Nonprofit</Link></li>
-                                    <li className='mb-6 pl-4'><Link href=''>Press</Link></li>
                                     <li className='mb-6 pl-4'><Link href=''>Sole proprietorship</Link></li>
                                     <hr className='w-[20%] mb-6 ml-4' />
                                     <li><Link href='' className='font-bold underline pl-4 mb-6'>View all</Link></li>
@@ -37,7 +40,9 @@ export const BusinessSubMenu = () => {
                         <div className="collapse  w-full">
                             <input type="checkbox" />
                             <div className="collapse-title text-xl font-medium ">
+                                <Link href=''>
                                 Run your business
+                                </Link>
                             </div>
                             <div className="collapse-content">
                                 <ul className=''>
@@ -59,7 +64,9 @@ export const BusinessSubMenu = () => {
                         <div className="collapse  w-full">
                             <input type="checkbox" />
                             <div className="collapse-title text-xl font-medium ">
+                                <Link href=''>
                                 Protect your brand
+                                </Link>
                             </div>
                             <div className="collapse-content">
                                 <ul className=''>

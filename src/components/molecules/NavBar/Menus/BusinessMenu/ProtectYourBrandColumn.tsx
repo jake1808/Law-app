@@ -2,7 +2,7 @@ import { HelpButtonLink } from '@/components/atoms/NavBar/Links/HelpButtonLink'
 import { MenuLink } from '@/components/atoms/NavBar/Links/MenuLink'
 import { MenuLinkHeader } from '@/components/atoms/NavBar/Links/MenuLinkHeader'
 import { ViewAllLink } from '@/components/atoms/NavBar/Links/ViewAllLink'
-import Link from 'next/link'
+
 import React from 'react'
 
 export const ProtectYourBrandColumn = () => {

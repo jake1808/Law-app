@@ -1,11 +1,13 @@
 
 import { MenuButton } from '@/components/molecules/NavBar/DropdownMenu/MenuButton'
 
-import { MenuLink } from '@/components/atoms/NavBar/Links/MenuLink'
-import { MenuLinkHeader } from '@/components/atoms/NavBar/Links/MenuLinkHeader'
+
 import { BiSearchAlt2 } from 'react-icons/bi'
 import React from 'react'
 import { BusinessSubMenu } from '@/components/molecules/NavBar/DropdownMenu/submenu/BusinessSubMenu'
+import { PersonalSubMenu } from './DropdownMenu/submenu/PersonalSubMenu'
+import Link from 'next/link'
+import { SupportSubMenu } from './DropdownMenu/submenu/SupportSubMenu'
 
 
 
@@ -26,17 +28,19 @@ export const DropdownMenu = () => {
                         <li>
                             <BusinessSubMenu />
                         </li>
-
-                        <MenuLink text='Contact us' />
-                        <MenuLink text='FAQs' />
-                        <MenuLink text='Check my order status' />
-                        <div className='my-6'></div>
-                        <MenuLinkHeader text='Support' />
-                        <div className='my-6'></div>
-                        <p className='font-bold'>Sales hours</p>
-                        <div className='my-6'></div>
-                        <p>Mon-Fri 5 a.m.-7 p.m. PT</p>
-                        <p>Mon-Fri 7 a.m.-4 p.m. PT</p>
+                        <li>
+                            <PersonalSubMenu />
+                        </li>
+                        <li className='pl-4 mt-6 mb-6'>
+                            <Link href='' className='text-xl font-medium '>For attorneys</Link>
+                        </li>
+                        <hr className='mt-6 mb-6' />
+                        <li className='pl-4'>
+                            <Link href='' className='text-xl font-medium  '>Resources</Link>
+                        </li>
+                        <li>
+                            <SupportSubMenu/>
+                        </li>
                     </ul>
                 </div>
             </div>
