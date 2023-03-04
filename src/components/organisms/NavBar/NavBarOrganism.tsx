@@ -25,7 +25,8 @@ export const NavBarOrganism = () => {
                 </div>
             </div>
             <div className='navbar-end '>
-                <SearchMolecule />
+                {/* TODO: FIX SEARCH POPUP */}
+                {/* <SearchMolecule /> */}
                 <PhoneButton/>
                 <SignInMolecule />
                 <DropdownMenu />
