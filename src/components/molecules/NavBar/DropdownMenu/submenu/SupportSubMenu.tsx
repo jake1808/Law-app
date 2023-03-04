@@ -11,16 +11,11 @@ export const SupportSubMenu = () => {
                 </Link>
             </div>
 
-            <li className="collapse-content ">
-                <ul>
-
+            <ul className="collapse-content ">
                     <li className='mb-6 pl-4'><Link href=''>Contact us</Link></li>
                     <li className='mb-6 pl-4'><Link href=''>FAQs</Link></li>
                     <li className='mb-6 pl-4'><Link href=''>Check my order status</Link></li>
-             
-                </ul>
-
-            </li>
+            </ul>
         </div> 
            )
                            
