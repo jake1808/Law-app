@@ -12,7 +12,7 @@ interface ImageLockUpProps {
 
 export const ImageLockUp = ({ align = 'left', image, children }: ImageLockUpProps) => {
   return (
-    <div className="hidden container md:grid grid-cols-2 gap-x-6 py-6">
+    <div className="hidden container lg:grid grid-cols-2 gap-x-6 py-6">
       <div className={`relative ${align === 'left' ? 'order-first' : 'order-last'}`}>
         {!!image?.src && <Image
           src={image.src}
