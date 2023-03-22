@@ -1,7 +1,7 @@
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-import { HeroMolecule } from '@/components/molecules/Hero/HeroMolecule'
-import { CallToActionMolecule } from '@/components/molecules/CallToAction/CallToActionMolecule'
+import { Hero } from '@/components/molecules/Hero/Hero'
+import { CallToAction } from '@/components/molecules/CallToAction/CallToAction'
 import { ImageLockUp } from '@/components/molecules/ImageLockUp/ImageLockUp'
 import { StatsMolecule } from '@/components/organisms/StatsSection/StatsMolecule'
 import { LegalSection as LegalSection } from '@/components/organisms/Legal/LegalSection'
@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={styles.main}>
-      <HeroMolecule />
-      <CallToActionMolecule />
+      <Hero />
+      <CallToAction />
       <ImageLockUp image={{
         src: 'https://source.unsplash.com/random/?city,night',
         alt: 'Wow!'

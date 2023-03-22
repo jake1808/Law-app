@@ -3,18 +3,18 @@ import { LinkBtn } from '@/components/atoms/NavBar/Hero/Linkbtn/LinkBtn'
 
 import React from 'react'
 
-export const HeroMolecule = () => {
+export const Hero = () => {
     return (
         <div className='hero min-h-screen bg-neutral sm:min-h-fit
         pt-6'>
             <div className='hero-content flex-col-reverse lg:flex-row-reverse p-0'>
-               
-                    <img
-                        className='max-w-sm rounded-lg shadow-2xl sm:hidden '
-                        src='https://images.unsplash.com/photo-1582896911227-c966f6e7fb93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80'
-                        alt='person'
-                    />
-                
+
+                <img
+                    className='max-w-sm rounded-lg shadow-2xl sm:hidden '
+                    src='https://images.unsplash.com/photo-1582896911227-c966f6e7fb93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80'
+                    alt='person'
+                />
+
                 <div className='p-4 sm:p-0'>
                     <h1 className='text-5xl font-bold sm:text-4xl sm:px-8'>
                         Zambian<br className='inline sm:hidden' /> Legal Help in Zambia
