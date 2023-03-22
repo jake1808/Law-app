@@ -15,13 +15,13 @@ export const HeroMolecule = () => {
                         alt='person'
                     />
                 
-                <div className='p-4'>
+                <div className='p-4 sm:p-0'>
                     <h1 className='text-5xl font-bold sm:text-4xl sm:px-8'>
                         Zambian<br className='inline sm:hidden' /> Legal Help in Zambia
                     </h1>
                     <p className='py-6 font-semibold text-3xl sm:text-2xl sm:px-8'>Get the legal help you need, with our DIY services or attorney advice. Either way, we&apos;ve got your back.</p>
-                    <div className=''>
-                        <div className='flex flex-col'>
+                    <div className='sm:flex sm:px-4 sm:pb-6'>
+                        <div className='flex flex-col sm:flex-1 sm:w-[60%] sm:mr-6'>
                             <LinkBtn text='Business Information' />
                             <LinkBtn text='Wills and trusts' />
                             <LinkBtn text='Intellectual property' />
