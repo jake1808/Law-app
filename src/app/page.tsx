@@ -3,7 +3,7 @@ import styles from './page.module.css'
 import { Hero } from '@/components/molecules/Hero/Hero'
 import { CallToAction } from '@/components/molecules/CallToAction/CallToAction'
 import { ImageLockUp } from '@/components/molecules/ImageLockUp/ImageLockUp'
-import { StatsMolecule } from '@/components/organisms/StatsSection/StatsMolecule'
+import { Stats } from '@/components/organisms/Stats/Stats'
 import { LegalSection as LegalSection } from '@/components/organisms/Legal/LegalSection'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,7 +27,7 @@ export default function Home() {
           <p>No hourly charges. No surprises. Really.</p>
         </>
       </ImageLockUp>
-      <StatsMolecule />
+      <Stats />
       <LegalSection />
     </main>
   )
