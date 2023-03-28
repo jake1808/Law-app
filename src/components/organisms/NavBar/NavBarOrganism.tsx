@@ -15,7 +15,7 @@ export const NavBarOrganism = () => {
         <div id='top' className='navbar bg-primary lg:absolute'>
             <div className='navbar-start'>
                 <Link href="/" className='text-white px-8'>
-                    Law App
+                    Law Concierge Africa
                 </Link>
                 <div className='hidden lg:navbar-center'>
                     <BusinessMenuMolecule />
@@ -27,7 +27,7 @@ export const NavBarOrganism = () => {
             <div className='navbar-end '>
                 {/* TODO: FIX SEARCH POPUP */}
                 {/* <SearchMolecule /> */}
-                <PhoneButton/>
+                <PhoneButton />
                 <SignInMolecule />
                 <DropdownMenu />
             </div>
