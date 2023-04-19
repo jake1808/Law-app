@@ -2,8 +2,11 @@ import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
 
+
+
 import './globals.css'
 import { PhoneModelMolecule } from '@/components/molecules/PhoneModel/PhoneModelMolecule'
+import SupabaseProvider from './supabase-provider'
 
 
 export default function RootLayout({
@@ -11,6 +14,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
       {/*
@@ -20,14 +24,16 @@ export default function RootLayout({
       <head />
 
       <body>
-        <NavBarOrganism />
-        {children}
-        <DisclaimerOrganism />
-        <FooterOrganism />
-        <PhoneModelMolecule/>
+        <SupabaseProvider>
+          <NavBarOrganism />
+          {children}
+          <DisclaimerOrganism />
+          <FooterOrganism />
+          <PhoneModelMolecule />
+        </SupabaseProvider>
       </body>
-     
-     
+
+
     </html>
   )
 }

@@ -8,6 +8,7 @@ import Link from 'next/link'
 
 import { BusinessMenuMolecule } from '../../molecules/NavBar/Menus/BusinessMenuMolecule'
 import { PersonalMenuMolecule } from '../../molecules/NavBar/Menus/PersonalMenu'
+import { Auth } from '@supabase/auth-ui-react'
 
 export const NavBarOrganism = () => {
 
