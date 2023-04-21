@@ -1,10 +1,10 @@
 "use client";
 
-import { useAuth } from "../../components/providers/supabase-auth-provider";
-import { Button } from "../../components/form/button";
-import { Input } from "../../components/form/input";
-import { Label } from "../../components/form/label";
-import { Separator } from "../../components/form/seperator";
+import { useAuth } from "../../../components/providers/supabase-auth-provider";
+import { Button } from "../../../components/form/button";
+import { Input } from "../../../components/form/input";
+import { Label } from "../../../components/form/label";
+import { Separator } from "../../../components/form/seperator";
 // import { Github, Mail } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
