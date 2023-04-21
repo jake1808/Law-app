@@ -7,7 +7,7 @@ export const CallToAction = () => {
       <div className='container mb-8 text-center sm:text-left'>
         <div className=' text-white m-0'>
           <h2 className='text-xl font-bold mb-4 sm:text-4xl sm:w-[65%]'>Attorneys with you, every step of the way</h2>
-          <p className='sm:w-[55%] '>Starting with our DIY services doesn’t mean you have to do it all by yourself. Count on our vetted network of attorneys for guidance—no hourly charges, no office visits.</p>
+          <p className='sm:w-[55%] '>Starting with our DIY services doesn&apos;t mean you have to do it all by yourself. Count on our vetted network of attorneys for guidance—no hourly charges, no office visits.</p>
         </div>
       </div>
       <div className='container  flex flex-col items-center gap-x-4 text-white sm:flex-row'>

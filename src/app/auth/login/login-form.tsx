@@ -8,6 +8,8 @@ import { Label } from "../../../components/form/label";
 import { Separator } from "../../../components/form/seperator";
 // import { Github, Mail } from "lucide-react";
 import { useRouter } from "next/navigation";
+
+import second from 'next'
 import { useEffect, useState } from "react";
 import Link from 'next/link';
 
