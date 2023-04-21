@@ -8,16 +8,16 @@ import { Separator } from "../../../components/form/seperator";
 // import { Github, Mail } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const SignupForm = () => {
     const [email, setEmail] = useState<string>("");
-    const [password, setPassword] = useState<string>("")
-    const [error, setError] = useState<string | null>(null)
-    const [res, setRes] = useState<boolean>(false)
-    const [message, setMessage] = useState<string|null>(null)
+    const [password, setPassword] = useState<string>("");
+    const [error, setError] = useState<string | null>(null);
+    const [res, setRes] = useState<boolean>(false);
     const { signUpWithEmail, user } = useAuth();
     const router = useRouter();
-    
+
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -27,7 +27,7 @@ const SignupForm = () => {
             console.log(error);
             if (error) {
                 setError(error)
-            }else{
+            } else {
                 setRes(true);
             }
         } catch (error) {
@@ -73,6 +73,9 @@ const SignupForm = () => {
                     {error && <div className="mt-4 text-red-500">{error}</div>}
                     <Button variant='subtle' type="submit" className="flex items-center w-full gap-2 mt-6">Sign up</Button>
                 </form>
+                <div className="text-center mt-2">
+                    <Link href="/auth/login">Already have an account? login here!</Link>
+                </div>
             </div>
         </div>
     )

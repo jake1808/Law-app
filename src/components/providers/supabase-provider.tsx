@@ -2,7 +2,7 @@
 import { SupabaseClient } from "@supabase/auth-helpers-nextjs"
 import { Database } from "types/supabase"
 import React, { createContext, useContext, useState } from "react"
-import { createClient } from "@/lib/utils/supabase-browserclient"
+import { createClient } from "utils/supabase-browserclient"
 
 type SupabaseContext = {
     supabase: SupabaseClient<Database>

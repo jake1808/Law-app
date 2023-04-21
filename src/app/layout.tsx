@@ -8,7 +8,7 @@ import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/Disclaimer
 import './globals.css'
 import { PhoneModelMolecule } from '@/components/molecules/PhoneModel/PhoneModelMolecule'
 import SupabaseProvider from '../components/providers/supabase-provider'
-import { createClient } from '@/lib/utils/supabase-server'
+import { createClient } from 'utils/supabase-server'
 import SupabaseAuthProvider from '@/components/providers/supabase-auth-provider'
 
 
