@@ -1,3 +1,4 @@
+import 'server-only';
 import FooterOrganism from '@/components/organisms/Footer/FooterOrganism'
 import { NavBarOrganism } from '@/components/organisms/NavBar/NavBarOrganism'
 import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/DisclaimerOrganism'
@@ -6,15 +7,21 @@ import { DisclaimerOrganism } from '@/components/organisms/Disclaimer/Disclaimer
 
 import './globals.css'
 import { PhoneModelMolecule } from '@/components/molecules/PhoneModel/PhoneModelMolecule'
-import SupabaseProvider from './supabase-provider'
+import SupabaseProvider from '../components/providers/supabase-provider'
+import { createClient } from '@/lib/utils/supabase-server'
+import SupabaseAuthProvider from '@/components/providers/supabase-auth-provider'
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const supabase = createClient();
 
+  const {
+    data: { session }
+  } = await supabase.auth.getSession();
   return (
     <html lang="en">
       {/*
@@ -25,11 +32,13 @@ export default function RootLayout({
 
       <body>
         <SupabaseProvider>
-          <NavBarOrganism />
-          {children}
-          <DisclaimerOrganism />
-          <FooterOrganism />
-          <PhoneModelMolecule />
+          <SupabaseAuthProvider serverSession={session}>
+            <NavBarOrganism />
+            {children}
+            <DisclaimerOrganism />
+            <FooterOrganism />
+            <PhoneModelMolecule />
+          </SupabaseAuthProvider>
         </SupabaseProvider>
       </body>
 
