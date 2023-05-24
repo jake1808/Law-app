@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { RiAccountCircleLine } from 'react-icons/Ri'
+// import { RiAccountCircleLine } from 'react-icons/Ri'
 
 export const SignInLinkButton = () => {
   return (
@@ -9,7 +9,7 @@ export const SignInLinkButton = () => {
         Sign In
       </Link>
       <Link href="/auth/login" className='sm:hidden'>
-        <RiAccountCircleLine color='white' size={35} />
+        {/* <RiAccountCircleLine color='white' size={35} /> */} sign in
       </Link>
     </div>
   )
