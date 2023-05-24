@@ -35,7 +35,7 @@ const LoginForm = () => {
 
     useEffect(() => {
         if (user) {
-            router.push("/")
+            router.push("/account")
         }
     }, [user])
 

@@ -62,7 +62,7 @@ export default function SupabaseAuthProvider({
   // Sign Out
   const signOut = async () => {
     await supabase.auth.signOut();
-    router.push("/login");
+    router.push("/");
   };
 
   // Sign-In with Github

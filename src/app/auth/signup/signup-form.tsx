@@ -37,7 +37,7 @@ const SignupForm = () => {
     //check if there is a user
     useEffect(() => {
         if (res) {
-            router.push("/")
+            router.push("/auth/verify")
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [res]);
